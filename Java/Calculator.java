@@ -14,26 +14,18 @@ public class Calculator {
         char op = sc.next().charAt(0);
 
         // 1. We start with 'if', not 'else if'
-        if (op == '+') {
-            System.out.println("Result = " + (a + b));
-        } 
-        else if (op == '-') {
-            System.out.println("Result = " + (a - b));
-        } 
-       
-        else if (op == '*') {
-            System.out.println("Result = " + (a * b));
-        } 
-        else if (op == '/') {
-           
-            if (b != 0) {
-                System.out.println("Result = " + (a / b));
-            } else {
-                System.out.println("Error: Cannot divide by zero");
+        switch (op) {
+            case '+' -> System.out.println("Result = " + (a + b));
+            case '-' -> System.out.println("Result = " + (a - b));
+            case '*' -> System.out.println("Result = " + (a * b));
+            case '/' -> {
+                if (b != 0) {
+                    System.out.println("Result = " + (a / b));
+                } else {
+                    System.out.println("Error: Cannot divide by zero");
+                }
             }
-        } 
-        else {
-            System.out.println("Invalid operation");
+            default -> System.out.println("Invalid operation");
         }
     }
 }

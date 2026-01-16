@@ -3,7 +3,7 @@ public class Additionandsubstraction {
           //variables
           String name = "Alex Zravo";
           int age = 21;
-          double price = 20.20;
+          //double price = 20.20;
 
           int a = 10;
           int b = 20;

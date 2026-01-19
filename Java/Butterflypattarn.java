@@ -3,8 +3,16 @@ public class Butterflypattarn {
     public static void main(String[] args) {
         
         // Problem : Butterfly Pattern
-
-        int n = 4;
+          // *      *
+          // **    **
+          // ***  ***
+          // ********
+          // ********
+          // ***  ***
+          // **    **
+          // *      *
+            
+            int n = 4;
 
         // outer loop
         for(int i=1; i<=n; i++) {

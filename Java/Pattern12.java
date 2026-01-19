@@ -2,6 +2,8 @@
 public class Pattern12 {
     public static void main(String[] args) {
 
+          // problem 12 : Number Pyramid
+
         int n = 5;
 
         // outer loop

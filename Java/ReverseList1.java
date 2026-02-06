@@ -25,6 +25,7 @@ class ReverseList1 {
         // Base case
         if(head == null || head.next == null){
             return head;
+            
         }
 
         Node newHead = reverseListRecursive(head.next);

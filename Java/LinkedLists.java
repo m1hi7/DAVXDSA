@@ -3,7 +3,7 @@ import java.util.*;
 
 class LinkedLists {
    public static void main(String args[]) {
-      LinkedList<String> list = new LinkedList<String>();
+      LinkedList<String> list = new LinkedList<>();
 
 
       list.addFirst("shradha");

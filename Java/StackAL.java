@@ -9,7 +9,7 @@ public class StackAL {
         }
 
         public boolean isEmpty() {
-            return list.size() == 0;
+            return list.isEmpty();
         }
 
         public int pop() {

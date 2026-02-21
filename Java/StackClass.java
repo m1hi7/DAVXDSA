@@ -10,6 +10,7 @@ public class StackClass {
                 this.next = null;
             }
         }
+        @SuppressWarnings("unused")
         static class stack {
             public node head;
             public boolean isEmpty() {

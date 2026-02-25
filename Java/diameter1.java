@@ -1,4 +1,21 @@
-public static TreeInfo diameter(Node root) {
+class TreeInfo {
+    int height;
+    int diam;
+    
+    TreeInfo(int height, int diam) {
+        this.height = height;
+        this.diam = diam;
+    }
+}
+
+class Node {
+    int data;
+    Node left;
+    Node right;
+}
+
+public class diameter1 {
+    public static TreeInfo diameter(Node root) {
        if(root == null) {
            return new TreeInfo(0, 0);
        }
@@ -20,4 +37,9 @@ public static TreeInfo diameter(Node root) {
 
 
        return new TreeInfo(myHeight, myDiam);
-   }
+    }
+    
+    public static void main(String[] args) {
+        // Test code here
+    }
+}

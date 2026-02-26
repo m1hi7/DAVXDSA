@@ -13,7 +13,7 @@ public boolean isIdentical(TreeNode root, TreeNode subRoot) {
     if (root == null || subRoot == null) {
         return false;
     }
-
+ 
     // If values match, check left and right subtree
     if (root.val == subRoot.val) {
         boolean leftCheck = isIdentical(root.left, subRoot.left);

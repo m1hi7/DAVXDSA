@@ -10,8 +10,8 @@ public static int countOfNodes(Node root) {
    }
     public static void main(String[] args) {
          // Test the countOfNodes method
-         Node root = new Node(1);
-         root.left = new Node(2);
-         root.right = new Node(3);
+         Node root = new Node();
+         root.left = new Node();
+         root.right = new Node();
          System.out.println(countOfNodes(root)); // Output should be 3
     }

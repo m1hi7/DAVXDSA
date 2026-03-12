@@ -4,7 +4,7 @@ class Node {
     Node left;
     Node right;
     
-    Node(int data) {
+    Node() {
         this.data = data;
         this.left = null;
         this.right = null;
@@ -14,9 +14,9 @@ class Node {
 public class preorder {
     public static void main(String[] args) {
         // Test the preorder traversal
-        Node root = new Node(1);
-        root.left = new Node(2);
-        root.right = new Node(3);
+        Node root = new Node();
+        root.left = new Node();
+        root.right = new Node();
         preorder(root);
     }
 

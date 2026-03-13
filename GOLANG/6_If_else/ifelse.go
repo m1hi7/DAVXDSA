@@ -2,12 +2,16 @@ package main
 
 func main() {
 
-	age := 15
+	var role = "admin"
+	var hasPermission = true
 
-	if age >= 18 {
-		println("You are an adult")
+	if role == "admin" && hasPermission {
+		println("You have admin access")
+	} else if role == "user" && hasPermission {
+		println("You have user access")
 	} else {
-		println("You are a minor")
+		println("Access denied")
 	}
 
+	// go does nto have ternary, you will have to use normal if else
 }
